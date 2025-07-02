@@ -283,7 +283,7 @@ def signup_window():
             connect.commit()
             messagebox.showinfo("Success", "Account created successfully", parent=signup)
             signup.destroy()
-            
+
     tk.Button(
         signup,
         text="Create Account",
