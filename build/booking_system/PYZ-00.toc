@@ -1,5 +1,5 @@
 ('C:\\Users\\USER\\Desktop\\john '
- 'programs\\BOOKING_SYSTEM\\build\\booking_system\\PYZ-00.pyz',
+ 'programs\\booking_system\\build\\booking_system\\PYZ-00.pyz',
  [('PIL',
    'C:\\Users\\USER\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PIL\\__init__.py',
    'PYMODULE'),
