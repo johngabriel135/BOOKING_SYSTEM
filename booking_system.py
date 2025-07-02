@@ -607,6 +607,7 @@ def open_dashboard(username, role):
             command=root.destroy,
         ).pack(fill=tk.X)
 
+
     root.mainloop()
 
 # ---------- RUN LOGIN WINDOW ----------
