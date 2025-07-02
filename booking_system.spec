@@ -5,7 +5,7 @@ a = Analysis(
     ['booking_system.py'],
     pathex=[],
     binaries=[],
-    datas=[('image1.jpeg', '.')],
+    datas=[],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},

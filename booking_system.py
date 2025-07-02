@@ -302,6 +302,13 @@ def login_window():
     login.geometry("400x300")
     login.resizable(False, False)
     login.configure(bg="white")
+    # Center the window on the screen
+    login.update_idletasks()
+    width = 400
+    height = 300
+    x = (login.winfo_screenwidth() // 2) - (width // 2)
+    y = (login.winfo_screenheight() // 2) - (height // 2)
+    login.geometry(f"{width}x{height}+{x}+{y}")
     if logo:
         login_logo = ImageTk.PhotoImage(logo)
         login.iconphoto(False, login_logo)
